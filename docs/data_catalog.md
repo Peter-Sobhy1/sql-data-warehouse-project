@@ -13,7 +13,7 @@ The Gold Layer is the business-level data representation, structured to support 
 |------------------|---------------|-----------------------------------------------------------------------------------------------|
 | customer_key     | INT           | Surrogate key uniquely identifying each customer record in the dimension table.               |
 | customer_id      | INT           | Unique numerical identifier assigned to each customer.                                        |
-| customer_number  | NVARCHAR(50)  | Alphanumeric identifier representing the customer, used for tracking and referencing.         |
+| customer_number  | VARCHAR(50)   | Alphanumeric identifier representing the customer, used for tracking and referencing.         |
 | first_name       | NVARCHAR(50)  | The customer's first name, as recorded in the system.                                         |
 | last_name        | NVARCHAR(50)  | The customer's last name or family name.                                                     |
 | country          | NVARCHAR(50)  | The country of residence for the customer (e.g., 'Australia').                               |
